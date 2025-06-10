@@ -13,7 +13,6 @@ async function getWeather(){
   }
 
 
-
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 const imageUrl = `https://source.unsplash.com/600x400/?${city},landmark`;
 
@@ -50,8 +49,6 @@ try{
 
 
   `;
-
-
 
 } catch (error){
     document.getElementById("weatherResult").innerHTML =
